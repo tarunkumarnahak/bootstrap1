@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bootstrap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <style>
+      .carousel-inner{
+          width: 100%;
+          height: 100%;
+      }
+  </style>
+  <body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <!-- end navbar -->
+<!-- start hero carousel-->
+
+<div id="carouselId" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselId" data-slide-to="1"></li>
+        <li data-target="#carouselId" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <img src="https://source.unsplash.com/weekly?earth" width="1600" height="700">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Title</h3>
+                <p>Description</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://source.unsplash.com/weekly?nature"width="1600" height="700">
+
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Title</h3>
+                <p>Description</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://source.unsplash.com/weekly?water"width="1600" height="700">   
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Title</h3>
+                <p>Description</p>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- end hero carousel -->
+<!-- start about us -->
+<section>
+    <div class="container-fluid">
+        <h1 class="text-center transform-capitalize">About us</h1>
+        <hr class="w-25 mx-auto pt-5"></hr>
+
+        <div class="row mb-5">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="https://picsum.photos/id/237/600/400" class="img-fluid">
+
+
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <h1 class="text-center">Who am I ?</h1>
+            <hr>
+            <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <button class="btn  bg-primary text-white">Meet me</button>
+          </div>
+
+           
+        </div>
+
+    </div>
+</section>
+<!-- end about us -->
+<!-- start service  -->
+<section>
+  <div class="container mb-4">
+    <h1 class="text-center transform-capitalize">Services </h1>
+        <hr class="w-25 mx-auto pt-5"></hr>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card" >
+                    <img class="card-img-top" src="https://picsum.photos/id/237/600/400" alt="Card image">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                       </div>
+                    </div>
+               
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card" >
+                    <img class="card-img-top" src="https://picsum.photos/id/237/600/400" alt="Card image">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                       </div>
+                    </div>
+               
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card" >
+                    <img class="card-img-top" src="https://picsum.photos/id/237/600/400" alt="Card image">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                       </div>
+                    </div>
+               
+                </div>
+            </div>
+          </div>
+</section>
+<!-- end service area -->
+
+<!-- start article -->
+<section class="bg-primary">
+  <article class="py-5 text-center">
+    <div>
+      <h3 class="display-4 text-white">+91 1234567809</h3>
+      <p class="text-white">You can call...</p>
+      <button class="btn btn-warning">Contact Now</button>
+    </div>
+  </article>
+</section>
+
+<!-- end article -->
+
+<!-- start Gallary  -->
+<section>
+  <div class="container mb-4 my-3">
+    <h1 class="text-center transform-capitalize">Gallary </h1>
+        <hr class="w-25 mx-auto pt-5"></hr>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="https://picsum.photos/id/237/600/400" class="img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="https://picsum.photos/id/237/600/400" class="img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="https://picsum.photos/id/237/600/400" class="img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="https://picsum.photos/id/237/600/400" class="img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="https://picsum.photos/id/237/600/400" class="img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="https://picsum.photos/id/237/600/400" class="img-fluid">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+<!-- end Gallary -->
+
+<!-- register start -->
+<section class="bg-primary my-4">
+  <article class="py-5 ">
+    <div class="text-center">
+      <h3 class="display-4 text-white">What to Join</h3>
+      <!-- <p class="text-white">Join now</p> -->
+      <button class="btn btn-warning" data-toggle='modal'data-target='#myModal'>join now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sign Up</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        <form action="/action_page.php">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  </article>
+</section>
+
+<!-- register end -->
+
+<!-- Contact us start -->
+<section class="mb-5">
+  <div class="container mb-4 my-3">
+    <h1 class="text-center transform-capitalize">Contact Us </h1>
+        <hr class="w-25 mx-auto pt-5"></hr>
+
+        <div class="w-50 mx-auto">
+          <form action="#">
+  <div class="form-group">
+    <label for="email">Name</label>
+    <input type="text" class="form-control" placeholder="Enter name" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Email</label>
+    <input type="text" class="form-control" placeholder="Enter email" id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Contact No</label>
+    <input type="text" class="form-control" placeholder="Contact No" id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Message </label>
+    <textarea class="form-control"></textarea>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Send</button>
+</form>
+
+        </div>
+</div>
+</section>
+
+
+<!-- contact us end -->
+
+<!-- footer start -->
+<footer class="mb-0">
+  <p class="text-center bg-dark text-white">@copyright</p>
+</footer>
+<!-- end footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
